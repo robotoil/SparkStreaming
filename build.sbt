@@ -20,7 +20,7 @@ assemblyMergeStrategy in assembly := {
   case x => MergeStrategy.first
 }
 
-//mainClass in assembly := Some("com.datastax.robotoil.HiveExample")
+//mainClass in assembly := Some("com.datastax.robotoil.SparkStreaming")
 
 lazy val dse_run = taskKey[Unit]("Builds the package and ships it to the DSE cluster")
 dse_run := {
