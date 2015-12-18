@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hivesql.iml" filepath="$PROJECT_DIR$/.idea/modules/hivesql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hivesql-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hivesql-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkstreaming.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkstreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkstreaming-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkstreaming-build.iml" />
     </modules>
   </component>
 </project>

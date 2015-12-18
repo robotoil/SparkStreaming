@@ -1,13 +1,11 @@
-name := "HiveSQL"
+name := "SparkStreaming"
 version := "1.0"
 scalaVersion := "2.10.4"
 //organization := "datastax.com"
 val sparkVersion = "1.4.1"
 val sparkCassandraVersion = "1.4.0"
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion % "provided"
-libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
-libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % sparkVersion % "provided"
 libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % sparkCassandraVersion % "provided"
 
 // Do not include Scala in the JAR
